@@ -14,7 +14,7 @@ class ApolloExtProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->singleton('InviteCode', function ($app) {
+        $this->app->singleton('ApolloClient', function ($app) {
             return new InviteCode($app['config']);
         });
     }
