@@ -3,8 +3,9 @@
 namespace takeshi;
 
 use Illuminate\Support\ServiceProvider;
+use tasakus\ApolloClient;
 
-class ApolloExtProvider extends ServiceProvider
+class ApolloProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -15,7 +16,7 @@ class ApolloExtProvider extends ServiceProvider
     {
         //
         $this->app->singleton('ApolloClient', function ($app) {
-            return new InviteCode($app['config']);
+            return new ApolloClient($app['config']);
         });
     }
 
