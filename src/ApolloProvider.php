@@ -1,6 +1,6 @@
 <?php
 
-namespace takeshi;
+namespace tasakus;
 
 use Illuminate\Support\ServiceProvider;
 use tasakus\ApolloClient;
