@@ -1,6 +1,6 @@
 <?php
 
-namespace tasakus\ApolloExt\Facades;
+namespace tasakus\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
