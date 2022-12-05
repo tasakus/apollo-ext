@@ -28,7 +28,7 @@ class ApolloExtProvider extends ServiceProvider
     {
         //
         $this->publishes([
-            __DIR__.'/../config/config.php' => config_path('apollo_ext.php'),
-        ],'invitecode');
+            __DIR__.'/../config/config.php' => config_path('apollo_config.php'),
+        ],'apollo_config');
     }
 }
