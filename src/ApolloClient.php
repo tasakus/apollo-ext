@@ -1,6 +1,6 @@
 <?php
 
-namespace tasakus\ApolloExt;
+namespace tasakus;
 
 use Illuminate\Config\Repository;
 

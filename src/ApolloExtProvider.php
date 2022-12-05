@@ -1,6 +1,6 @@
 <?php
 
-namespace takeshi\ApolloExt;
+namespace takeshi;
 
 use Illuminate\Support\ServiceProvider;
 

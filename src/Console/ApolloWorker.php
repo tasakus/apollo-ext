@@ -1,6 +1,6 @@
 <?php
 
-namespace tasakus\ApolloExt\Console;
+namespace tasakus\Console;
 
 use Illuminate\Console\Command;
 
