@@ -14,8 +14,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "tasakus\\ApolloClient"
-            ]
+                "tasakus\\ApolloProvider"
+            ],
+            "aliases": {
+                "InviteCode": "tasakus\\Facades\\ApolloClient"
+            }
         }
     }
 }
