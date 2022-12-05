@@ -16,7 +16,7 @@ class ApolloProvider extends ServiceProvider
     {
         //
         $this->app->singleton('ApolloClient', function ($app) {
-            return new ApolloClient($app['config']);
+            return new ApolloClient();
         });
     }
 

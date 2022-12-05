@@ -9,14 +9,15 @@ class ApolloClient
 {
     protected $config;
 
-    public function __construct(Repository $config)
+    public function __construct()
     {
-        $this->config = $config->get('apollo_config');
+
 
     }
     
     public function Print_ln()
     {
+        $url = config('server', "123123123");
         return [
             'data' => "test"
         ];
