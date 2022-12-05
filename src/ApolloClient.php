@@ -17,9 +17,9 @@ class ApolloClient
     
     public function Print_ln()
     {
-        $url = config('server', "123123123");
+        $url = config('apollo_config.server', "123123123");
         return [
-            'data' => "test"
+            'data' => "$url"
         ];
     }
 }

@@ -11,7 +11,7 @@ class ApolloWorker extends Command
      *
      * @var string
      */
-    protected $signature = 'apollo:worker';
+    protected $signature = 'apolloExt:worker';
 
     /**
      * The console command description.
